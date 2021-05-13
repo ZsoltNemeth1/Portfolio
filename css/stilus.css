@@ -1,0 +1,162 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/hatter.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: darkblue;
+    font-size: 1.2em;
+}
+body
+{
+    width: 80%;
+    margin: auto;
+    color: black;
+    background: whitesmoke;
+    border: solid transparent;
+}
+header a
+{
+    text-decoration: none;
+    color: inherit !important;
+}
+nav
+{
+    margin: auto;
+    text-align: center;
+    display: table;
+    width: 100%;
+    background-color: darkgray;
+}
+nav div
+{
+    list-style: none;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 15%;
+    text-align: center;
+    transition: 0.3s;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+nav li
+{
+    list-style-type: none;
+}
+nav div:hover
+{
+    background: #10486F;
+    cursor: pointer;
+    color: white;
+}
+#aktualis
+{
+    background-color: #323232;
+    color: white;
+}
+#tartalom
+{
+    padding-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: left;
+    display: table;
+}
+h1, h2
+{
+    margin-left: 8%;
+}
+main h2
+{
+    margin-left: 0%;
+}
+footer
+{
+    text-align: center;
+    padding-top: 15%;
+}
+#keptarto
+{
+    text-align: center;
+}
+#kep1
+{
+    width: 15%;
+    margin-left: 8%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    text-overflow: clip;
+}
+#kep2
+{
+    width: 30%;
+    margin-left: 8%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+    text-overflow: clip;
+}
+#allo, #fekvo
+{
+    text-align: center;
+}
+#allo img
+{
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+#fekvo img
+{
+    width: 45%;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.dok
+{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 1000px)
+{
+    #kep1
+    {
+        width: 40%;
+        float: none;
+    }
+    #kep2, #allo img
+    {
+        width: 80%;
+        float: none;
+        display: block;
+    }
+    #allo img
+    {
+        margin: auto;
+        margin-top: 2%;
+    }
+    #fekvo img
+    {
+        width: 80%;
+    }
+    .dok
+    {
+    width: 80%;
+    }
+}
+@media screen and (max-width: 1100px)
+{
+    nav div
+    {
+        display: block;
+        width: 80%;
+    }
+}
