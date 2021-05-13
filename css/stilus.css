@@ -74,6 +74,10 @@ main h2
 {
     margin-left: 0%;
 }
+ol li
+{
+    word-break: break-all;
+}
 footer
 {
     text-align: center;
